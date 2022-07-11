@@ -21,6 +21,15 @@ O CFO da empresa fez uma reunião com todos os gerentes de loja e pediu para que
 
 <img src = "https://user-images.githubusercontent.com/94937578/178171624-823275d2-6368-463b-a2fd-358a0d059b79.png" width="1000px" />
 
+
+<b>4.1. Entendimento do negócio:</b>
+
+<b>4.2. Construção das hipóteses:</b>
+
+<b>4.3. Coleta e limpeza dos dados</b>
+
+<b>4.4. Seleção de atributos</b>
+
 ## 5. Dados:
 
 ## 6. Principais resultados:
