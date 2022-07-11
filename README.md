@@ -6,7 +6,7 @@
 ## 1. Resumo:
 
 - <b>Código no Jupyter Notebook</b>
-- <b>Dashboard no Tableau</b>
+- <b>Dashboard no Streamlit</b>
 
 ## 2. Contexto:
 
