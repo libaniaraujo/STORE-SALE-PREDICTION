@@ -14,7 +14,7 @@ O CFO da empresa Rossman fez uma reunião com todos os gerentes de loja e pediu 
 
 ## 3. Problema de negócio:
 
-Previsão de vendas das lojas da empresa Rossman nas próximas 6 semanas.
+Previsão de vendas das lojas da empresa Rossman para 6 semanas seguidas.
 
 ## 4. Planejamento da solução:
 
