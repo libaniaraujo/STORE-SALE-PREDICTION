@@ -51,7 +51,7 @@ O CFO da empresa fez uma reunião com todos os gerentes de loja e pediu para que
 `Promo` | Indica se uma loja está realizando uma promoção naquele dia
 `Promo2` | É uma promoção contínua e consecutiva para algumas lojas: 0 = a loja não está participando, 1 = a loja está participando
 `Promo2Since[Year/Week]` | Descreve o ano e a semana do calendário em que a loja começou a participar da Promo2
-`PromoInterval` - Descreve os intervalos consecutivos em que a Promo2 é iniciada, nomeando os meses em que a promoção é iniciada novamente. Por exemplo. "Fevereiro, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para essa loja
+`PromoInterval` | Descreve os intervalos consecutivos em que a Promo2 é iniciada, nomeando os meses em que a promoção é iniciada novamente. Por exemplo. "Fevereiro, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para essa loja
 
 ## 6. Principais resultados:
 
