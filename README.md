@@ -37,21 +37,21 @@ O CFO da empresa fez uma reunião com todos os gerentes de loja e pediu para que
 
 **Atributo** | **Descrição**
 --- | --- 
-`Id` - an Id that represents a (Store, Date) duple within the test set
-`Store` - ID único para cada loja
-`Sales` - Número de vendas no dia
-`Customers` - O número de clientes no dia
-`Open` - Indica se a loja está fechada ou aberta na data: 0 = fechada, 1 = aberta
-`StateHoliday` - indicates a state holiday. Normally all stores, with few exceptions, are closed on state holidays. Note that all schools are closed on public holidays and weekends. a = public holiday, b = Easter holiday, c = Christmas, 0 = None
-`SchoolHoliday` - indicates if the (Store, Date) was affected by the closure of public schools
-`StoreType` - differentiates between 4 different store models: a, b, c, d
-`Assortment` - describes an assortment level: a = basic, b = extra, c = extended
-`CompetitionDistance` - distance in meters to the nearest competitor store
-`CompetitionOpenSince[Month/Year]` - gives the approximate year and month of the time the nearest competitor was opened
-`Promo` - indicates whether a store is running a promo on that day
-`Promo2` - Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating
-`Promo2Since[Year/Week]` - describes the year and calendar week when the store started participating in Promo2
-`PromoInterval` - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
+`Id` | Um ID que representa uma duplicata (Loja, Data) no conjunto de teste
+`Store`  | ID único para cada loja
+`Sales` | Número de vendas no dia
+`Customers` | O número de clientes no dia
+`Open` | Indica se a loja está fechada ou aberta na data: 0 = fechada, 1 = aberta
+`StateHoliday` | Indica feriado estadual. Normalmente todas as lojas, com poucas exceções, estão fechadas nos feriados estaduais. Observe que todas as escolas estão fechadas nos feriados e fins de semana. a = feriado, b = feriado da páscoa, c = natal, 0 = nenhum
+`SchoolHoliday` |  indica se a (Loja, Data) foi afetada pelo fechamento de escolas públicas
+`StoreType` | diferencia entre 4 modelos de loja diferentes: a, b, c, d
+`Assortment` | descreve um nível de sortimento: a = básico, b = extra, c = estendido
+`CompetitionDistance` | Distância em metros até a loja concorrente mais próxima
+`CompetitionOpenSince[Month/Year]` | Fornece o ano e o mês aproximados em que o concorrente mais próximo foi aberto
+`Promo` | Indica se uma loja está realizando uma promoção naquele dia
+`Promo2` | É uma promoção contínua e consecutiva para algumas lojas: 0 = a loja não está participando, 1 = a loja está participando
+`Promo2Since[Year/Week]` | Descreve o ano e a semana do calendário em que a loja começou a participar da Promo2
+`PromoInterval` - Descreve os intervalos consecutivos em que a Promo2 é iniciada, nomeando os meses em que a promoção é iniciada novamente. Por exemplo. "Fevereiro, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para essa loja
 
 ## 6. Principais resultados:
 
