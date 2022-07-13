@@ -10,29 +10,73 @@
 
 ## 2. Contexto:
 
-O CFO da empresa fez uma reunião com todos os gerentes de loja e pediu para que cada um deles trouxesse uma previsão diária das próximas 6 semanas de vendas. Depois dessa reunião, todos os gerentes entraram em contato com você, requisitando uma previsão de vendas de sua loja.
+O CFO da empresa Rossman fez uma reunião com todos os gerentes de loja e pediu para que cada um deles trouxesse uma previsão diária das próximas 6 semanas de vendas. Depois dessa reunião, todos os gerentes entraram em contato com você, requisitando uma previsão de vendas de sua loja.
 
 ## 3. Problema de negócio:
 
+Previsão de vendas das lojas da empresa Rossman nas próximas 6 semanas.
 
 ## 4. Planejamento da solução:
 
-<b>4.0. Implementação do método de gerenciamento CRISP-DM (Cross-Industry Process – Data Science):</b>
+### 4.0. Implementação do método de gerenciamento CRISP-DM (Cross-Industry Process – Data Science):
 
 <img src = "https://user-images.githubusercontent.com/94937578/178171624-823275d2-6368-463b-a2fd-358a0d059b79.png" width="1000px" />
 
+### 4.1. Entendimento do problema de negócio:
 
-<b>4.1. Entendimento do negócio:</b>
+#### o Entender a motivação:
+- Qual o contexto?
+  O CFO requisitou essa solução durante uma reunião de resultados mensais.
 
-<b>4.2. Construção das hipóteses:</b>
+#### o	Entender a causa raiz do problema:
+- Por que fazer uma previsão de vendas?
+  Investimento em reforma das lojas
+#### o	Entender quem é o dono do problema:
+- Quem é o steakholder?
+  CFO ou pessoas próximas a ele.
 
-<b>4.3. Coleta e limpeza dos dados</b>
+#### o	Entender o formato da solução:
+- Qual o formato de entrega da solução?
+   * Granularidade: Vendas diárias em R$ nas próximas 6 semanas.
+   * Tipo de problema: Problema de predição.
+   * Principais métodos: Time Series, Regressão e Redes Neurais.
+   * Formato da entrega:
 
-<b>4.4. Seleção de atributos</b>
+### 4.2. Construção das hipóteses:
+
+<img src = "https://user-images.githubusercontent.com/94937578/178730870-6b257e8c-0603-4f93-8d04-12adaf35b9c0.png" width="1000px" />
+
+- Hipóteses que serão validadas pela análise exploratória dos dados:
+
+  - Lojas com maior sortimento deveriam vender mais.
+  - Lojas com competidores mais próximos deveriam vender menos.
+  - Lojas com competidores à mais tempo deveriam vender mais.
+  - Lojas com promoções ativas por mais tempo deveriam vender mais.
+  - Lojas com mais dias de promoção deveriam vender mais.
+  - Lojas com mais promoções consecutivas deveriam vender mais.
+  - Lojas abertas no feriado de natal deveriam vender mais.
+  - Lojas deveriam vender mais ao longo dos anos.
+  - Lojas deveriam vender mais no segundo semestre do ano.
+  - Lojas deveriam vender menos aos finais de semana.
+  - Lojas deveriam vender mais depois do dia 10 de cada mês.
+  - Lojas deveriam vender menos aos finais de semana.
+  - Lojas deveriam vender menos durante os feriados escolares.
+
+### 4.3. Coleta, descrição e limpeza dos dados
+
+### 4.4. Feature Engineering
+
+### 4.5. Análise exploratória dos dados
+
+### 4.6. Preparação dos dados e seleção de atributos
+
+### 4.7. Treinamento algoritmos de Machine Learning
+
+### 4.8. Deploy do modelo em produção
 
 ## 5. Dados:
 
-- Será utilizado o conjundo de dados disponibilizado na plataforma Kaggle (https://www.kaggle.com/competitions/rossmann-store-sales/)
+- Será utilizado o conjundo de dados disponibilizado na plataforma Kaggle (https://www.kaggle.com/competitions/rossmann-store-sales/).
 - Os atributos apresentados no conjunto de dados são descritos na tabela abaixo:
 
 **Atributo** | **Descrição**
